@@ -195,7 +195,7 @@ button:hover {
 /*=============== PROFILE ===============*/
 .profile {
   position: relative;
-  /* padding-top: 3.5rem; */
+  padding-top: .875rem;
 }
 
 .profile__container {
