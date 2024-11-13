@@ -13,13 +13,14 @@ Log in to your domain registrar where you registered your `.web.id` domain, and 
 
 ### Required DNS Records
 
-| Name  | Type   | TTL   | RDATA                                 |
-|-------|--------|-------|---------------------------------------|
-| @     | A      | 3600  | 185.199.108.153                       |
-| @     | A      | 3600  | 185.199.109.153                       |
-| @     | A      | 3600  | 185.199.110.153                       |
-| @     | A      | 3600  | 185.199.111.153                       |
-| www   | CNAME  | 3600  | `<your-github-username>.github.io`    |
+|    Name   |   Type   |  TTL  |               RDATA                |
+|:---------:|:--------:|:-----:|------------------------------------|
+|     @     |    A     | 3600  | 185.199.108.153                    |
+|     @     |    A     | 3600  | 185.199.109.153                    |
+|     @     |    A     | 3600  | 185.199.110.153                    |
+|     @     |    A     | 3600  | 185.199.111.153                    |
+|    www    |  CNAME   | 3600  | `<your-github-username>.github.io` |
+
 
 **Explanation:**
 - **Name**: Use `@` to represent your root domain (`yourdomain.web.id`). Use `www` if you also want `www.yourdomain.web.id` to point to your GitHub Pages.
